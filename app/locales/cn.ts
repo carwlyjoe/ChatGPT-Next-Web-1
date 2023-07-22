@@ -257,7 +257,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "前往公众号: **[阿车爱学习](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg3NjgyODg3Ng==&scene=124#wechat_redirect)** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。",
+    BotHello: "前往公众号: **[阿车爱学习](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg3NjgyODg3Ng==&scene=124#wechat_redirect)** 回复 **密码** 免费获取密码，然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费使用**。期待您的关注",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
