@@ -10,7 +10,7 @@
     ],
     [
       "应用FAQ样式",
-      "我现在需要将一段准备好的文本根据html样式模板库中的html样式应用到已经编辑好的文本当中。其中文本已经用Markdown格式标出了该应用的样式，你需要根据样式适当应用模板库中的代码把文本放进去编辑好html代码给我。\\nFAQ样式：\\n```html\\n<div class=\\\"article-faqs\\\">\\n<p class=\\\"question\\\">Q1.{文本}</p>\\n<div class=\\\"answer\\\">\\n<p><span>A1.</span>{文本}</p>\\n<p class=\\\"text-top-bottom\\\">{文本}</p>\\n</div>\\n</div>\\n<div class=\\\"article-faqs\\\">\\n<p class=\\\"question\\\">Q2.{文本}</p>\\n<div class=\\\"answer\\\">\\n<p><span>A2.</span>{文本}</p>\\n<p class=\\\"text-top-bottom\\\">{文本}</p>\\n</div>\\n</div>\\n```\\n请根据具体情况决定要不要添加“<p class=\\\"text-top-bottom\\\">{文本}</p>”\\n现在请把上面的FAQ模板样式应用到下面的FAQ版块上并返回html代码给我："
+      "我现在需要将一段准备好的文本根据html样式模板库中的html样式应用到已经编辑好的文本当中。其中文本已经用Markdown格式标出了该应用的样式，你需要根据样式适当应用模板库中的代码把文本放进去编辑好html代码给我。\\n\\nFAQ样式：\\n\\n```html\\n<div class=\\\"article-faqs\\\">\\n  <p class=\\\"question\\\">Q1.{文本}</p>\\n  <div class=\\\"answer\\\">\\n    <p><span>A1.</span>{文本}</p>\\n    <p class=\\\"text-top-bottom\\\">{文本}</p>\\n  </div>\\n</div>\\n<div class=\\\"article-faqs\\\">\\n  <p class=\\\"question\\\">Q2.{文本}</p>\\n  <div class=\\\"answer\\\">\\n    <p><span>A2.</span>{文本}</p>\\n    <p class=\\\"text-top-bottom\\\">{文本}</p>\\n  </div>\\n</div>\\n```\\n\\n请根据具体情况决定要不要添加\\\"<p class=\\\"text-top-bottom\\\">{文本}</p>\\\"\\n\\n现在请把上面的FAQ模板样式应用到下面的FAQ版块上并返回html代码给我："
     ],
     [
       "应用pros and cons样式",
