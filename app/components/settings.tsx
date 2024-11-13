@@ -1692,8 +1692,8 @@ export function Settings() {
         </List>
 
         <List id={SlotID.CustomModel}>
-          {saasStartComponent}
-          {accessCodeComponent}
+{/*           {saasStartComponent}
+          {accessCodeComponent} */}
 
           {!accessStore.hideUserApiKey && (
             <>
