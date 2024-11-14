@@ -74,7 +74,8 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
 };
 
 const LANG_KEY = "lang";
-const DEFAULT_LANG = "en";
+//默认语言
+const DEFAULT_LANG = "cn";
 
 const fallbackLang = en;
 const targetLang = ALL_LANGS[getLang()] as LocaleType;
