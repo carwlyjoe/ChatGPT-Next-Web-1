@@ -43,7 +43,12 @@ import {
   useAppConfig,
 } from "../store";
 
-import Locale from "../locales";
+import Locale, {
+  AllLangs,
+  ALL_LANG_OPTIONS,
+  changeLang,
+  getLang,
+} from "../locales";
 import { copyToClipboard, clientUpdate, semverCompare } from "../utils";
 import Link from "next/link";
 import {
@@ -1492,7 +1497,7 @@ export function Settings() {
             </Select>
           </ListItem>
 
-          {/* <ListItem title={Locale.Settings.Lang.Name}>
+          <ListItem title={Locale.Settings.Lang.Name}>
             <Select
               aria-label={Locale.Settings.Lang.Name}
               value={getLang()}
@@ -1506,7 +1511,7 @@ export function Settings() {
                 </option>
               ))}
             </Select>
-          </ListItem> */}
+          </ListItem>
 
           <ListItem
             title={Locale.Settings.FontSize.Title}
@@ -1687,7 +1692,7 @@ export function Settings() {
         </List>
 
         <List id={SlotID.CustomModel}>
-          {/*           {saasStartComponent}
+          {/* {saasStartComponent}
           {accessCodeComponent} */}
 
           {!accessStore.hideUserApiKey && (
