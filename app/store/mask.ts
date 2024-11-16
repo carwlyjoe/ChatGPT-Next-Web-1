@@ -22,9 +22,10 @@ export type Mask = {
   enableCodeFold?: boolean;
 };
 
+// Start of Selection
 export const DEFAULT_MASK_STATE = {
   masks: {} as Record<string, Mask>,
-  language: undefined as Lang | undefined,
+  language: "cn" as Lang, // 修改默认语言为中文
 };
 
 export type MaskState = typeof DEFAULT_MASK_STATE & {
